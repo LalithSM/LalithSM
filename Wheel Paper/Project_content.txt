@@ -1,0 +1,29 @@
+Project 1: Static and Fatigue Analysis of Automotive Wheel Rims with Carbon Fiber Composites
+
+Brief Summary:
+This project involved conducting a comprehensive structural and fatigue analysis of automotive wheel rims using various carbon fiber composite materials. The goal was to evaluate the performance of these materials in terms of strength, deformation, and fatigue life to identify a suitable alternative to traditional materials like aluminum and steel. Three different wheel rim designs (R-1, R-2, and R-3) were modeled using SOLIDWORKS and analyzed using ANSYS Workbench with four different carbon composite materials: PEEK 90 HMF 40, PEEK 450 CA 30, PEEK 450 GL 40, and CFRP-UD.
+
+Key Bullet Points:
+
+Advanced Materials: Utilized advanced carbon fiber composites (PEEK and CFRP) to assess their potential in enhancing the structural integrity and fatigue life of automotive wheel rims.
+Comprehensive Analysis: Conducted static and fatigue analysis using ANSYS to evaluate deformation, von Mises stress and strain, damage, safety factor, and life cycle for different rim designs.
+Optimal Design: Identified the R-3 wheel rim design with PEEK 90 HMF 40 as the most optimal combination, offering superior structural properties and reduced fatigue compared to traditional materials.
+
+Methodology:
+
+Modeling and Material Selection:
+Designed three wheel rim models (R-1, R-2, R-3) using SOLIDWORKS.
+Selected four carbon fiber composite materials: PEEK 90 HMF 40, PEEK 450 CA 30, PEEK 450 GL 40, and CFRP-UD.
+
+Finite Element Analysis (FEA):
+Imported the models into ANSYS Workbench for analysis.
+Conducted static structural analysis to evaluate deformation, von Mises stress, and strain distribution.
+Performed fatigue analysis to estimate the life cycle and damage accumulation under cyclic loading conditions.
+
+Comparative Analysis:
+Compared the performance of each material and rim design based on the results from the FEA.
+Evaluated the safety factor and identified the optimal combination of material and design.
+
+Results Paragraph:
+The analysis revealed that the R-3 wheel rim design with PEEK 90 HMF 40 material exhibited the best performance among the tested configurations. This combination resulted in minimal total deformation and von Mises stress, indicating higher structural integrity. Specifically, the stress levels in the R-3 rim with PEEK 90 HMF 40 were approximately 12% lower than those in the R-1 rim and 25% lower than those in the R-2 rim. The fatigue life was also significantly extended, demonstrating the material's superior durability. These findings suggest that using carbon fiber composites, particularly PEEK 90 HMF 40, can substantially improve the performance and longevity of automotive wheel rims, making them a viable alternative to traditional materials.
+

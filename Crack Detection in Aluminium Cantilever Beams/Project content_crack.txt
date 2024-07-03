@@ -1,0 +1,50 @@
+Project Title: Crack Detection on Aluminium Cantilever Beams through Computer-Aided Vibration Analysis and Deep Learning
+
+Objective:
+The main goal of this project was to develop a reliable method for detecting and analyzing cracks in aluminium cantilever beams using vibration analysis and deep learning techniques. This approach aims to prevent catastrophic structural failures by enabling early detection of cracks.
+
+Introduction:
+Cracks in structural elements can lead to significant failures, especially in systems that experience dynamic loading. Traditional methods for crack detection, such as visual inspection and ultrasonic testing, can be time-consuming and may not detect subsurface cracks effectively. Vibration analysis, which studies changes in the modal properties of a structure, offers a non-destructive and efficient alternative.
+
+Methodology:
+
+Theoretical Analysis:
+Developed a theoretical model to analyze the vibration characteristics of a cantilever beam with transverse cracks.
+Considered beams made of various aluminium alloys (Al 6061, Al 6013, Al 5052, Al 5024).
+The cracks were introduced at different positions along the length of the beam and at varying depths (10%, 20%, 30%, 40%, 50%, and 60% of the beam depth).
+Calculated the natural frequencies and mode shapes of the undamaged and damaged beams using derived mathematical equations.
+
+Finite Element Analysis (FEA):
+Utilized ANSYS software to perform modal analysis on the cantilever beams.
+Created detailed FEA models of the beams with different crack configurations.
+Simulated the dynamic response of the beams to obtain natural frequencies and mode shapes.
+Compared the FEA results with theoretical predictions to ensure accuracy.
+
+Deep Learning Model:
+Developed an Artificial Neural Network (ANN) model using MATLAB.
+The ANN was trained with input parameters such as frequency ratios, crack position ratios, and crack severity ratios.
+Used the ANN to predict crack locations and depths based on changes in vibration characteristics.
+The model employed a multilayer perceptron architecture for accurate predictions.
+
+Experimental Validation:
+Conducted experimental tests on aluminium cantilever beams with artificially introduced cracks.
+Measured the natural frequencies and mode shapes using vibration analysis equipment.
+Validated the theoretical and FEA results with experimental data to ensure the reliability of the proposed method.
+
+Key Results:
+The presence of cracks significantly affected the modal parameters of the cantilever beams, with noticeable reductions in natural frequencies and alterations in mode shapes.
+The theoretical, FEA, and experimental results showed good agreement, validating the accuracy of the proposed crack detection method.
+The ANN model demonstrated high prediction accuracy, successfully identifying crack locations and severities with minimal error.
+The introduction of the Modal Assurance Criterion (MAC) further improved the precision of the predictions, making the method robust for practical applications.
+
+Conclusion:
+This project successfully developed a comprehensive approach for detecting and analyzing cracks in aluminium cantilever beams using vibration analysis and deep learning. The combination of theoretical modeling, finite element analysis, and artificial neural networks provided a reliable and efficient method for early crack detection. The validated results emphasize the potential of this approach for structural health monitoring in various engineering applications, enhancing safety and preventing catastrophic failures.
+
+Key Bullet Points:
+Advanced Methodology: Integrated theoretical analysis, FEA, and deep learning for precise crack detection.
+Validated Results: Achieved strong correlation between theoretical, numerical, and experimental results.
+Practical Application: Demonstrated the method's effectiveness for real-world structural health monitoring.
+
+Results Paragraph:
+The comprehensive analysis revealed that cracks significantly influence the vibration characteristics of cantilever beams. The developed theoretical model accurately predicted the changes in natural frequencies and mode shapes caused by cracks. The FEA simulations in ANSYS confirmed these predictions, showing close agreement with the theoretical results. Experimental validation further reinforced the method's accuracy, with the ANN model achieving high prediction precision for crack locations and severities. The use of the Modal Assurance Criterion (MAC) enhanced the reliability of the predictions, making this approach a robust solution for early crack detection in engineering structures.
+

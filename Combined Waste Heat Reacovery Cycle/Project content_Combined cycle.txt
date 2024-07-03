@@ -1,0 +1,43 @@
+Project Title: A Combined Power & Cooling Cycle Driven by a Diesel Engine’s Exhaust – Waste Heat Recovery Cycle
+
+Objective:
+The objective of this project was to develop and analyze a combined power and cooling cycle using the waste heat from a diesel engine’s exhaust. The system integrates an Organic Rankine Cycle (ORC) with a Compression Refrigeration Cycle (CRC) to generate power and provide cooling for industrial applications.
+
+Three Key Bullet Points:
+
+Waste Heat Utilization: Utilized waste heat from a diesel engine’s exhaust to drive a combined cycle, enhancing overall system efficiency and reducing environmental impact.
+Integrated Systems: Combined Organic Rankine Cycle (ORC) and Compression Refrigeration Cycle (CRC) using carbon dioxide as the working fluid, achieving dual benefits of power generation and cooling.
+Performance Analysis: Conducted a detailed thermodynamic analysis and optimization using MATLAB and CoolProp to evaluate the system's efficiency and cooling capacity.
+
+Introduction:
+The rapid industrial growth has increased the demand for energy, necessitating efficient energy utilization methods to reduce environmental degradation. This project focuses on recycling CO2 emissions from diesel engines to drive a combined cycle that generates power and provides cooling, thereby reducing CO2 levels in the atmosphere and enhancing overall energy efficiency.
+
+Methodology:
+
+System Description:
+
+Diesel Engine Parameters: The diesel engine considered for the study is an inline 6-cylinder, 4-stroke, supercharged engine. Key parameters include an exhaust temperature of 519°C and a mass flow rate of 990.8 kg/hour.
+Exhaust Gas Composition: The composition of the exhaust gases is CO2=15.10%, H2O=5.37%, N2=73.04%, and O2=6.49%.
+Organic Rankine Cycle (ORC):
+
+Components: The ORC consists of a turbine, condenser, working fluid pump, and gas heater/boiler.
+Process: The high-pressure supercritical CO2 fluid flows into the turbine, converting enthalpy into work to drive the CRC compressor. The low-pressure vapor exits the turbine, is condensed into a saturated liquid, and is then pumped back into the gas heater.
+
+Compression Refrigeration Cycle (CRC):
+
+Components: The CRC includes a compressor, gas cooler/condenser, throttle valve, and evaporator.
+Process: The ORC-driven compressor compresses the CO2 vapor into a supercritical fluid, which then flows into the gas cooler, throttle valve, and evaporator. The fluid absorbs heat from the air-conditioned space and cycles back to the compressor.
+
+Calculations and Analysis:
+
+Thermodynamic Properties: Used CoolProp tool for obtaining thermodynamic properties of CO2.
+Efficiency Calculations: Calculated turbine work, pump work, heat input to the boiler, and cooling capacity. The coefficient of performance (COP) for the combined cycle was derived.
+
+Results Paragraph:
+The analysis demonstrated that the waste heat from the diesel engine exhaust could effectively drive a combined ORC and CRC system to provide cooling. The system achieved a coefficient of performance (COP) of 0.225 for a cooling temperature of 20°C, with an ORC efficiency of 40.47%. The cooling capacity (NetRef) varied significantly with the cooling space temperature, ranging from 5.2060e+04 J/s at 217K to 7.5848e+03 J/s at 300K. The results indicate that utilizing waste heat from diesel engines in a combined power and cooling cycle can significantly enhance energy efficiency and reduce greenhouse gas emissions. The system's performance can be further optimized by incorporating additional heat exchange devices, such as expanders or heat accumulators.
+
+Key Bullet Points:
+
+Waste Heat Utilization: Effective use of diesel engine exhaust heat to drive a combined ORC and CRC system, enhancing energy efficiency and reducing environmental impact.
+Dual Benefits: Simultaneous power generation and cooling using CO2 as a working fluid, leveraging its thermodynamic properties.
+Performance Optimization: Detailed thermodynamic analysis and MATLAB-based optimization to evaluate system performance, demonstrating significant potential for industrial applications.

@@ -1,0 +1,42 @@
+Project Title: Wind Speed Retrieval Using Machine Learning
+
+Objective:
+The objective of this project was to develop a machine learning model to retrieve wind speed vectors from Doppler Lidar data. The goal was to enhance the accuracy of wind speed predictions by leveraging neural networks and incorporating data from various sources.
+
+Three Key Bullet Points:
+
+Innovative Approach: Utilized neural networks to process Doppler Lidar data and retrieve accurate wind speed vectors, improving upon traditional methods.
+Comprehensive Data Integration: Combined data from surface meteorological stations, Doppler Lidars, and sonic anemometers to train and validate the model.
+Model Performance: Demonstrated the model's effectiveness with low error metrics (RMSE and MAE) and detailed performance analysis.
+
+Introduction:
+Accurate wind speed measurement is crucial for various applications, including weather forecasting, wind energy assessment, and aviation safety. Traditional methods like anemometers provide point measurements but lack spatial resolution. Doppler Lidar, which measures the Doppler shift of laser light scattered by atmospheric particles, offers detailed spatial information but requires sophisticated methods to retrieve wind speed vectors from radial data. This project aimed to develop a neural network-based model to enhance wind speed retrieval accuracy from Doppler Lidar data.
+
+Methodology:
+
+Data Collection and Preprocessing:
+
+Data Sources: Downloaded data from the Atmosphere to Electrons (A2e) initiative of the U.S. Department of Energy, including:
+Surface meteorological station tower data from Troutdale and Wasco, Oregon.
+Doppler Lidar data from CU Windcube Lidars at Troutdale and Wasco airports.
+Data Cleaning: Cleaned and merged datasets, handled missing values, and standardized features for model training.
+
+Machine Learning Model:
+
+Neural Network Architecture: Designed a neural network model using TensorFlow and Keras. The model leveraged the ability of neural networks to capture complex nonlinear relationships in data.
+Input and Target Variables: Used Doppler Lidar radial wind speed and vector wind speed from towers as inputs and target variables, respectively.
+Model Training: Trained the model with a comprehensive dataset, including 2-minute and 10-minute averaged data, to ensure robustness.
+
+Model Evaluation and Validation:
+
+Performance Metrics: Evaluated the model using Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) to assess prediction accuracy.
+Cross-Validation: Implemented cross-validation and early stopping to prevent overfitting and ensure generalization to unseen data.
+
+Results Paragraph:
+The machine learning model demonstrated impressive accuracy in retrieving wind speed vectors from Doppler Lidar data. At Troutdale Airport, the model achieved an RMSE of 0.44 and an MAE of 0.12, with a final test loss of 0.2013. At Wasco Airport, the model's performance was slightly lower, with an RMSE of 1.63 and an MAE of 1.54. Testing the model trained at Troutdale on Wasco data resulted in higher error metrics (RMSE: 4.84, MAE: 4.8), highlighting the importance of site-specific data for accurate predictions. When trained and tested with both datasets, the model achieved an RMSE of 1.63 and an MAE of 1.57. These results indicate that while the model performs well at individual sites, generalization to different locations requires additional site-specific training data. The project successfully demonstrated the potential of neural networks for accurate wind speed retrieval, offering valuable insights for applications in wind energy and meteorology.
+
+Key Bullet Points:
+
+Innovative Approach: Developed a neural network model to retrieve accurate wind speed vectors from Doppler Lidar data.
+Comprehensive Data Integration: Integrated data from multiple sources, including surface meteorological stations and Doppler Lidars, for robust model training and validation.
+Model Performance: Achieved low RMSE and MAE values, demonstrating the model's effectiveness and reliability for wind speed prediction.

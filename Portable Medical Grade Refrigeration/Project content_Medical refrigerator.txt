@@ -1,0 +1,32 @@
+Project Title: Improved Design for a Portable Medical-Grade Refrigeration System
+
+Objective:
+The goal of this project was to develop an improved portable refrigeration system specifically designed for medical use. The system aimed to enhance efficiency and performance by utilizing advanced cooling technologies and innovative design concepts. The primary focus was on improving the cooling capacity, reducing energy consumption, minimizing CO2 emissions, and lowering operational costs.
+
+Introduction:
+Portable medical refrigeration systems are crucial for safely transporting temperature-sensitive medical supplies such as vaccines and medications. Traditional systems often suffer from inefficiencies and uneven cooling distribution. This project, undertaken by Team Black Frog, aimed to address these issues by integrating solid-state Peltier coolers with vapor chamber technology and a novel perforated chamber design inspired by fluidized bed concepts.
+
+Methodology:
+
+Design and Technology:
+Peltier Module: Utilized a solid-state Peltier cooler based on the Seebeck effect to achieve efficient cooling.
+Vapor Chamber: Implemented vapor chamber technology to enhance passive cooling on the hot side of the Peltier module. The vapor chamber effectively distributes heat, improving thermal contact and increasing the heat transfer coefficient to 1400 W/m²K.
+Perforated Chamber: Developed a perforated chamber inspired by fluidized beds to ensure even cold air distribution throughout the refrigeration compartment.
+
+Simulation and Analysis:
+Thermal Analysis: Conducted thermal simulations using ANSYS Fluent to evaluate the temperature distribution, cooling capacity, and energy consumption of the improved design compared to the original design.
+Efficiency Improvement: Focused on optimizing the system to achieve a 33% increase in efficiency through the combination of vapor chamber and perforated chamber designs.
+
+Performance Metrics:
+Cooling Capacity: Calculated the cooling capacity, which was determined to be 0.013 tons. The cooling capacity can be adjusted by varying the voltage and current input to the Peltier module.
+Energy Consumption: Assessed the energy consumption, which was found to be 0.023 kWh. The improved design saves 20.7 kWh per year when operating for 13 hours a day over 300 days.
+CO2 Emissions: Evaluated the carbon emissions, with the improved design producing 0.0147 lbs of CO2 per device annually, representing a 30% reduction in emissions.
+Cost Analysis: Analyzed the operational cost, concluding that the improved design costs $294 per year, saving $126 per device annually compared to the original design.
+
+Key Bullet Points:
+Enhanced Efficiency: Achieved a 33% increase in system efficiency through the integration of vapor chamber technology and a perforated chamber design.
+Energy and Cost Savings: Significantly reduced energy consumption and operational costs, leading to substantial annual savings and reduced environmental impact.
+Improved Cooling Distribution: Developed a novel perforated chamber design to ensure even cold air distribution, enhancing the overall performance and reliability of the refrigeration system.
+
+Results Paragraph:
+The improved design of the portable medical-grade refrigeration system demonstrated a significant enhancement in efficiency and performance. The integration of vapor chamber technology for passive cooling and a perforated chamber design for even cold air distribution led to a 33% increase in system efficiency. Thermal simulations indicated that the improved system achieved a cooling capacity of 0.013 tons while reducing energy consumption to 0.023 kWh. This resulted in annual energy savings of 20.7 kWh per device and a 30% reduction in CO2 emissions. The cost analysis revealed that the improved design costs $294 per year, saving $126 per device annually compared to the original design. These findings underscore the potential of the improved design to provide reliable and efficient cooling solutions for temperature-sensitive medical supplies, ensuring their safe transport and storage.

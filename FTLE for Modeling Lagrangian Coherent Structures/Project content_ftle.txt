@@ -1,0 +1,40 @@
+Project Title: Finite-Time Lyapunov Exponent Analysis of Unsteady Gyre Flow
+
+Objective:
+The primary objective of this project was to investigate the dynamic behavior of fluid flows using Finite-Time Lyapunov Exponents (FTLE) to identify Lagrangian Coherent Structures (LCS) in unsteady gyre flows. The study aimed to utilize MATLAB to develop simulations that compute FTLE fields based on the parameters defining the double-gyre flow model, specifically focusing on the effects of amplitude and frequency of gyre oscillations on particle trajectories and mixing patterns.
+
+Three Key Bullet Points:
+
+Advanced Analytical Techniques: Utilized FTLE to identify Lagrangian Coherent Structures (LCS) in unsteady gyre flows, offering insights into fluid mixing and transport dynamics.
+Numerical Simulations: Implemented the fourth-order Runge-Kutta method in MATLAB for accurate and efficient computation of particle trajectories over a set integration time.
+Impact of Flow Parameters: Analyzed the correlation between gyre flow parameters (amplitude and frequency) and the complexity of LCS, enhancing the understanding of fluid dynamics.
+
+Introduction:
+Understanding fluid flow behavior is essential in various fields such as oceanography, meteorology, and engineering. Predicting and analyzing fluid motion is crucial for applications ranging from weather forecasting and environmental science to designing efficient hydraulic systems and improving aerodynamic performance. This project focuses on using FTLE to identify and visualize dynamic structures within fluid flows, known as LCS, which act as barriers or facilitators to the transport of mass, energy, and momentum within a fluid system. The study employs a double-gyre flow model to simulate unsteady behavior typical of oceanic and atmospheric flows, uncovering the underlying mechanisms of particle separation and the impact of flow parameters on LCS formation and evolution.
+
+Methodology:
+
+Description of the Physical Model:
+
+Double-Gyre Flow Model: Utilized to represent idealized, large-scale oceanic and atmospheric circulations, characterized by two counter-rotating gyres. The flow is described by the streamfunction:
+psi(x, y, t) = A sin(pi f(x, t)) sin(pi y)
+f(x, t) = epsilon sin(omega t)x^2 + (1-2 epsilon sin(omega t))x
+Parameters: Amplitude (A) = 0.1, nonlinearity control (epsilon) = 0.25, frequency of gyre oscillations (omega) = 2pi/10.
+
+Numerical Methods:
+
+Integration Method: Used the fourth-order Runge-Kutta (RK4) method to compute particle trajectories. This method balances computational efficiency and accuracy, making it suitable for solving ordinary differential equations derived from the velocity field of the double-gyre model.
+Finite-Time Lyapunov Exponents (FTLE): Calculated FTLE fields to identify and visualize LCS by computing the largest eigenvalue of the Cauchy-Green strain tensor, derived from the flow map gradient over a finite time interval.
+
+Implementation:
+
+MATLAB Simulation: Implemented the simulation in MATLAB, leveraging its robust matrix operations and visualization capabilities. Key steps included grid initialization, vector field calculation, trajectory computation, FTLE calculation, and visualization of results.
+
+Results Paragraph:
+The simulation results provided insightful visualizations and quantifications of the dynamics within the double-gyre flow system. Using both forward and backward integration techniques, the analysis highlighted distinct behaviors in particle trajectories. Forward integration revealed the stretching and folding processes typical of chaotic systems, with particles aligning along high FTLE values, indicating regions of significant divergence. Backward integration, on the other hand, showcased converging regions where particles come together, highlighting areas of relative stability. The FTLE fields effectively delineated LCS, with forward integration identifying transport barriers and backward integration pinpointing accumulation zones. The results demonstrated significant correlations between gyre flow parameters (amplitude and frequency) and the complexity of LCS, offering valuable insights into fluid mixing and transport dynamics. These findings underscore the robust capabilities of numerical simulations in studying complex fluid systems and provide a comprehensive understanding of fluid behavior in theoretical and applied contexts.
+
+Key Bullet Points:
+
+Advanced Analytical Techniques: Utilized FTLE to identify Lagrangian Coherent Structures (LCS) in unsteady gyre flows, offering insights into fluid mixing and transport dynamics.
+Numerical Simulations: Implemented the fourth-order Runge-Kutta method in MATLAB for accurate and efficient computation of particle trajectories over a set integration time.
+Impact of Flow Parameters: Analyzed the correlation between gyre flow parameters (amplitude and frequency) and the complexity of LCS, enhancing the understanding of fluid dynamics.

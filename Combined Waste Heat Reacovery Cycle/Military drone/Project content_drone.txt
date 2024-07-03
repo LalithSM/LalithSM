@@ -1,0 +1,39 @@
+Project Title: Heat Transfer and Thermal Insulation Design of a Military Drone
+
+Objective:
+The objective of this project was to design an effective insulation solution for a two-stroke internal combustion engine in a military drone to insulate the fuel system from the engine's thermal output. The goal was to enhance the fuel system's safety and efficiency by selecting appropriate insulation materials and performing a comprehensive thermal analysis.
+
+Three Key Bullet Points:
+
+Advanced Insulation Materials: Identified and evaluated high-temperature insulation materials, including refractory ceramic fibers and polycrystalline wool, to ensure optimal performance and weight efficiency.
+CFD Thermal Analysis: Conducted detailed Computational Fluid Dynamics (CFD) analysis to simulate the heat flux and temperature distribution within the engine and fuel system, assessing the impact of different insulation thicknesses.
+Improved Safety and Efficiency: Demonstrated significant reduction in heat flux to the fuel system, ensuring the fuel remains below its auto-ignition temperature, thereby improving the drone's operational safety and efficiency.
+
+Introduction:
+The thermal output of internal combustion engines poses a significant challenge for the design of military drones, especially when the fuel system must be insulated to prevent overheating and potential ignition. This project aimed to introduce an effective insulation material into the existing design of a drone equipped with a two-stroke IC engine. The design and analysis focused on maintaining high-temperature resistance while minimizing added weight.
+
+Methodology:
+
+Material Selection:
+
+Refractory Ceramic Fibers (RCF): Selected for their ability to withstand high temperatures without degrading. RCF is lightweight, easy to install, and flexible, making it suitable for wrapping around curved surfaces like engine cylinders. The higher temperature grade RCF contains approximately 15% ZrO2, providing an improved temperature rating.
+Polycrystalline Wool: Evaluated for its excellent resistance to thermal shock, chemical attack, and abrasion. It can withstand temperatures up to 3000°F (1650°C).
+
+CFD Analysis:
+
+Simulation Setup: Used CFD to simulate the heat flux from the engine's combustion chamber to the fuel system. The analysis included scenarios with and without insulation, as well as different insulation thicknesses (1mm and 3mm).
+Insulation Impact: Assessed the reduction in heat flux with the addition of insulation materials, focusing on maintaining the fuel temperature below its auto-ignition point.
+
+Insulation Thickness Calculation:
+
+Conducted detailed calculations to determine the optimal insulation thickness required to achieve the desired thermal protection.
+Compared the performance of 1mm and 3mm insulation layers to evaluate their effectiveness in reducing heat transfer.
+
+Results Paragraph:
+The CFD analysis revealed a significant reduction in heat flux to the fuel system with the addition of insulation materials. The use of polycrystalline wool and refractory ceramic fibers resulted in a noticeable drop in heat flux, with a 1mm increase in insulation thickness reducing the heat flux by 104 W/m². This substantial reduction ensures that the fuel temperature remains well below its auto-ignition point, thereby enhancing the operational safety and efficiency of the military drone. The selected materials demonstrated excellent thermal resistance while maintaining minimal weight impact, making them ideal for high-temperature applications in aerospace environments. The project successfully achieved its objective of insulating the fuel system from the engine's thermal output, providing a reliable and efficient solution for military drones.
+
+Key Bullet Points:
+
+Advanced Insulation Materials: Evaluated refractory ceramic fibers and polycrystalline wool for high-temperature resistance and lightweight properties.
+CFD Thermal Analysis: Simulated heat flux and temperature distribution to optimize insulation design and ensure fuel system safety.
+Improved Safety and Efficiency: Achieved significant reduction in heat flux, maintaining fuel temperature below auto-ignition levels and enhancing drone performance.

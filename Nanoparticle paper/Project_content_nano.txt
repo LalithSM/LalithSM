@@ -1,0 +1,29 @@
+Project 2: Effect of Nano-Particle Coating on Marine Propellers
+
+Brief Summary:
+This project investigated the impact of nano-particle coatings on the performance and durability of marine propellers. The study focused on using Aluminum Oxide (Al2O3) nano-particles to create a hydrophobic layer on the propeller surface to mitigate issues like corrosion, cavitation, and marine growth. Computational Fluid Dynamics (CFD) analysis was performed on both coated and uncoated propellers to evaluate the differences in lift and drag coefficients. The modeling was done using CATIA, and the simulations were carried out in ANSYS Fluent.
+
+Key Bullet Points:
+
+Enhanced Durability: Application of Aluminum Oxide nano-particle coating significantly improved the propeller's resistance to corrosion and cavitation.
+Improved Performance: The coated propeller demonstrated a reduction in drag coefficient and an increase in lift coefficient, leading to better propulsion efficiency.
+Comprehensive CFD Analysis: Utilized advanced CFD techniques to analyze the pressure distribution, velocity vectors, and overall aerodynamic performance of the propeller under various angles of attack.
+
+Methodology:
+
+Modeling and Coating Application:
+Designed the marine propeller model using CATIA.
+Applied Aluminum Oxide (Al2O3) nano-particle coating to create a hydrophobic surface layer.
+
+Computational Fluid Dynamics (CFD) Analysis:
+Imported the models into ANSYS Fluent for simulation.
+Conducted CFD analysis to evaluate the pressure distribution, lift, and drag coefficients.
+Analyzed the performance of both coated and uncoated propellers under various operating conditions.
+
+Performance Evaluation:
+Compared the lift and drag coefficients of coated and uncoated propellers.
+Assessed the impact of the nano-particle coating on the overall efficiency and durability of the propeller.
+
+Results Paragraph:
+The CFD analysis revealed that the application of Aluminum Oxide (Al2O3) nano-particle coating on the marine propeller resulted in notable improvements in performance and durability. The coated propeller exhibited a 32.32% reduction in the drag coefficient and an 11.37% increase in the lift coefficient compared to the uncoated propeller. These enhancements are attributed to the hydrophobic properties of the nano-coating, which minimized friction and prevented marine growth. The pressure distribution analysis showed a more uniform pressure profile on the coated propeller, reducing the risk of cavitation and erosion. Overall, the study demonstrates that nano-particle coatings can significantly extend the lifespan and efficiency of marine propellers, making them a viable solution for improving underwater vehicle propulsion systems.
+

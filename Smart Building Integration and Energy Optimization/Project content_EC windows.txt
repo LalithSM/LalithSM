@@ -1,0 +1,51 @@
+Project Title: Smart Building Integration and Energy Optimization with Electrochromic Windows
+
+Objective:
+The objective of this project was to integrate electrochromic (EC) windows into a smart building model and optimize energy usage. The aim was to demonstrate the potential energy savings and environmental benefits of using dynamic window technology in commercial buildings.
+
+Three Key Bullet Points:
+
+Dynamic Window Technology: Utilized electrochromic windows that adjust their tint based on solar radiation levels to optimize daylight and reduce energy consumption.
+Energy Efficiency Improvement: Conducted detailed energy simulations using OpenStudio and EnergyPlus to evaluate the impact of EC windows on the building's energy usage.
+Significant Savings: Achieved notable reductions in electricity consumption and carbon emissions, translating into substantial cost savings and environmental benefits.
+
+Introduction:
+With increasing emphasis on energy efficiency and sustainability, smart building technologies are becoming essential. Electrochromic windows, which can dynamically change their tint in response to external conditions, offer a promising solution for optimizing energy use in buildings. This project aimed to model a commercial building with integrated EC windows, simulate its energy performance, and quantify the potential savings.
+
+Methodology:
+
+Building Modeling:
+
+Prototype Building: Modeled a medium office building prototype using the International Energy Conservation Code (IECC) standards. The total building area was 4982.19 sq. meters, with a gross wall area of 1977.67 sq. meters and a window-to-wall ratio of 30%.
+Weather Data: Used weather data from Phoenix Sky Harbor (PHX), Arizona, for simulations.
+
+Electrochromic Windows Construction:
+
+Tint States: Modeled EC windows with four tint states, each with specific visible transmittance (VT), solar heat gain coefficient (SHGC), and U-factor values.
+Tint State 1: VT = 62.1%, SHGC = 0.443, U-factor = 0.289 BTU/hr-ft²-F
+Tint State 2: VT = 41.3%, SHGC = 0.28, U-factor = 0.289 BTU/hr-ft²-F
+Tint State 3: VT = 5.6%, SHGC = 0.104, U-factor = 0.289 BTU/hr-ft²-F
+Tint State 4: VT = 1.1%, SHGC = 0.087, U-factor = 0.289 BTU/hr-ft²-F
+
+Dynamic Modeling:
+
+Software Tools: Used OpenStudio and EnergyPlus for dynamic modeling of the EC windows.
+Control Strategies: Implemented shading control types to activate the EC windows based on incident solar radiation thresholds:
+Clear to State 1: 60 W/m²
+State 1 to State 2: 80 W/m²
+State 2 to State 3: 180 W/m²
+State 3 to State 4: 275 W/m²
+
+Energy Simulation and Analysis:
+
+Annual Energy Usage: Simulated the annual energy usage of the building with and without EC windows.
+Savings Calculation: Calculated the total energy savings, cost savings, and carbon emission reductions.
+
+Results Paragraph:
+The integration of electrochromic windows into the smart building model resulted in significant energy savings. The annual electricity usage decreased from 1544.41 GJ to 1344.36 GJ, while natural gas usage slightly increased from 97.41 GJ to 120.5 GJ. The total annual energy usage was reduced from 1641.82 GJ to 1464.86 GJ. This translates to an annual electric energy savings of 49155.56 kWh, resulting in net cost savings of $5475 per year. Additionally, the reduction in carbon dioxide emissions was calculated to be 34113.95 lbs per year. These results demonstrate the effectiveness of EC windows in optimizing energy usage and reducing operational costs in commercial buildings, while also contributing to environmental sustainability.
+
+Key Bullet Points:
+
+Dynamic Window Technology: Implemented electrochromic windows with adjustable tint states to optimize natural light and reduce energy consumption.
+Energy Efficiency Improvement: Achieved significant reductions in annual electricity usage and overall energy consumption through detailed energy simulations.
+Cost and Environmental Benefits: Demonstrated substantial cost savings and carbon emission reductions, highlighting the environmental and economic advantages of smart building technologies.
